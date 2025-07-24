@@ -65,7 +65,7 @@ app.use(
 app.use(express.json());
 
 // ✅ Allow OPTIONS preflight requests globally
-app.options('*', cors({
+app.options(/^\/.*$/, cors({
   origin: (origin, callback) => {
     if (!origin || allowedOrigins.includes(origin)) {
       callback(null, true);

@@ -1,0 +1,614 @@
+[undefined] ERROR: Database connection failed {"error":"Access denied for user 'root'@'localhost' (using password: YES)","timestamp":"2025-06-04T03:59:07.695Z"}
+[undefined] ERROR: Database connection failed {"error":"Unknown database 'project_'","timestamp":"2025-06-04T03:59:28.104Z"}
+[undefined] ERROR: Failed to insert users_details {"error":"Table 'project_bel.users_details' doesn't exist","timestamp":"2025-06-04T04:33:00.298Z"}
+[undefined] ERROR: Login failed {"error":"Table 'project_bel.users_details' doesn't exist","timestamp":"2025-06-04T04:43:44.411Z"}
+[undefined] ERROR: Token verification failed {"error":"jwt expired","timestamp":"2025-06-04T08:06:17.365Z"}
+[undefined] ERROR: Token verification failed {"error":"Invalid token","timestamp":"2025-06-04T08:06:17.366Z"}
+[undefined] ERROR: Token verification failed {"error":"jwt expired","timestamp":"2025-06-04T08:06:38.365Z"}
+[undefined] ERROR: Token verification failed {"error":"Invalid token","timestamp":"2025-06-04T08:06:38.366Z"}
+[undefined] ERROR: Token verification failed {"error":"jwt expired","timestamp":"2025-06-04T08:10:45.213Z"}
+[undefined] ERROR: Token verification failed {"error":"Invalid token","timestamp":"2025-06-04T08:10:45.214Z"}
+[undefined] ERROR: Token verification failed {"error":"jwt expired","timestamp":"2025-06-04T08:24:03.506Z"}
+[undefined] ERROR: Token verification failed {"error":"Invalid token","timestamp":"2025-06-04T08:24:03.507Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect date of birth provided","timestamp":"2025-06-04T15:57:32.171Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-04T17:49:11.449Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect date of birth provided","timestamp":"2025-06-04T18:00:45.486Z"}
+[undefined] ERROR: Failed to submit complaint {"error":"Table 'project_bel.pending_complaint_issues' doesn't exist","userId":3,"timestamp":"2025-06-04T19:38:55.846Z"}
+[undefined] ERROR: Error submitting complaint {"error":"Table 'project_bel.pending_complaint_issues' doesn't exist","userId":3,"timestamp":"2025-06-04T19:38:55.848Z"}
+[undefined] ERROR: Failed to fetch pending complaints {"error":"Unknown column 'u.name' in 'field list'","timestamp":"2025-06-04T19:41:56.649Z"}
+[undefined] ERROR: Error retrieving pending complaints {"error":"Unknown column 'u.name' in 'field list'","timestamp":"2025-06-04T19:41:56.650Z"}
+[undefined] ERROR: Failed to take complaint {"error":"Complaint not found","complaintId":1,"subadminId":2,"timestamp":"2025-06-04T19:48:57.088Z"}
+[undefined] ERROR: Error taking complaint {"error":"Complaint not found","complaintId":1,"subadminId":2,"timestamp":"2025-06-04T19:48:57.089Z"}
+[undefined] ERROR: Failed to take complaint {"error":"Data truncated for column 'action' at row 1","complaintId":3,"subadminId":2,"timestamp":"2025-06-04T19:49:41.058Z"}
+[undefined] ERROR: Error taking complaint {"error":"Data truncated for column 'action' at row 1","complaintId":3,"subadminId":2,"timestamp":"2025-06-04T19:49:41.059Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-04T20:07:20.272Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-04T20:07:20.314Z"}
+[undefined] ERROR: Error fetching previous solutions: {"error":"Table 'project_bel.users' doesn't exist","mainIssueId":"3","relatedIssueId":"18","userId":3,"timestamp":"2025-06-05T11:28:24.316Z"}
+[undefined] ERROR: Error retrieving previous solutions {"error":"Failed to fetch previous solutions","userId":3,"timestamp":"2025-06-05T11:28:24.317Z"}
+[undefined] ERROR: Error fetching general complaints: {"error":"Table 'project_bel.users' doesn't exist","timestamp":"2025-06-05T11:29:39.773Z"}
+[undefined] ERROR: Error retrieving general complaints {"error":"Failed to fetch general complaints","timestamp":"2025-06-05T11:29:39.774Z"}
+[undefined] ERROR: Error fetching general complaints: {"error":"Table 'project_bel.users' doesn't exist","timestamp":"2025-06-05T11:29:39.818Z"}
+[undefined] ERROR: Error retrieving general complaints {"error":"Failed to fetch general complaints","timestamp":"2025-06-05T11:29:39.819Z"}
+[undefined] ERROR: Error fetching general complaints: {"error":"Table 'project_bel.users' doesn't exist","timestamp":"2025-06-05T11:29:46.079Z"}
+[undefined] ERROR: Error retrieving general complaints {"error":"Failed to fetch general complaints","timestamp":"2025-06-05T11:29:46.080Z"}
+[undefined] ERROR: Error fetching general complaints: {"error":"Table 'project_bel.users' doesn't exist","timestamp":"2025-06-05T11:29:46.110Z"}
+[undefined] ERROR: Error retrieving general complaints {"error":"Failed to fetch general complaints","timestamp":"2025-06-05T11:29:46.111Z"}
+[undefined] ERROR: Error fetching general complaints: {"error":"Table 'project_bel.users' doesn't exist","timestamp":"2025-06-05T11:29:53.754Z"}
+[undefined] ERROR: Error retrieving general complaints {"error":"Failed to fetch general complaints","timestamp":"2025-06-05T11:29:53.755Z"}
+[undefined] ERROR: Error fetching general complaints: {"error":"Table 'project_bel.users' doesn't exist","timestamp":"2025-06-05T11:29:53.774Z"}
+[undefined] ERROR: Error retrieving general complaints {"error":"Failed to fetch general complaints","timestamp":"2025-06-05T11:29:53.775Z"}
+[undefined] ERROR: Error fetching general complaints: {"error":"Unknown column 'uc.closed_at' in 'field list'","timestamp":"2025-06-05T11:33:39.170Z"}
+[undefined] ERROR: Error retrieving general complaints {"error":"Failed to fetch general complaints","timestamp":"2025-06-05T11:33:39.171Z"}
+[undefined] ERROR: Error fetching general complaints: {"error":"Unknown column 'uc.closed_at' in 'field list'","timestamp":"2025-06-05T11:33:39.186Z"}
+[undefined] ERROR: Error retrieving general complaints {"error":"Failed to fetch general complaints","timestamp":"2025-06-05T11:33:39.188Z"}
+[undefined] ERROR: Failed to take complaint {"error":"Complaint is not pending","complaintId":7,"subadminId":2,"timestamp":"2025-06-05T11:40:35.686Z"}
+[undefined] ERROR: Error taking complaint {"error":"Complaint is not pending","complaintId":7,"subadminId":2,"timestamp":"2025-06-05T11:40:35.687Z"}
+[undefined] ERROR: Error updating complaint solution: {"error":"Complaint not found","timestamp":"2025-06-05T11:41:08.264Z"}
+[undefined] ERROR: Error updating complaint solution {"error":"Complaint not found","complaintId":"7","subadminId":2,"timestamp":"2025-06-05T11:41:08.265Z"}
+[undefined] ERROR: Failed to take complaint {"error":"Complaint is not pending","complaintId":7,"subadminId":2,"timestamp":"2025-06-05T11:50:28.455Z"}
+[undefined] ERROR: Error taking complaint {"error":"Complaint is not pending","complaintId":7,"subadminId":2,"timestamp":"2025-06-05T11:50:28.455Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-05T13:24:50.754Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-05T13:24:55.459Z"}
+[undefined] ERROR: Failed to take complaint {"error":"Complaint is not pending","complaintId":8,"subadminId":2,"timestamp":"2025-06-05T13:32:24.955Z"}
+[undefined] ERROR: Error taking complaint {"error":"Complaint is not pending","complaintId":8,"subadminId":2,"timestamp":"2025-06-05T13:32:24.956Z"}
+[undefined] ERROR: Error updating complaint solution: {"error":"Complaint not found","timestamp":"2025-06-05T14:31:40.905Z"}
+[undefined] ERROR: Error updating complaint solution {"error":"Complaint not found","complaintId":"8","subadminId":2,"timestamp":"2025-06-05T14:31:40.906Z"}
+[undefined] ERROR: Error updating complaint solution: {"error":"Complaint not found","timestamp":"2025-06-05T14:41:05.712Z"}
+[undefined] ERROR: Error updating complaint solution {"error":"Complaint not found","complaintId":"8","subadminId":2,"timestamp":"2025-06-05T14:41:05.713Z"}
+[undefined] ERROR: Error updating complaint solution: {"error":"Complaint not found","timestamp":"2025-06-05T14:46:08.972Z"}
+[undefined] ERROR: Error updating complaint solution {"error":"Complaint not found","complaintId":"9","subadminId":2,"timestamp":"2025-06-05T14:46:08.973Z"}
+[undefined] ERROR: Failed to take complaint {"error":"Complaint is already assigned","complaintId":10,"subadminId":2,"timestamp":"2025-06-05T16:52:33.995Z"}
+[undefined] ERROR: Error taking complaint {"error":"Complaint is already assigned","complaintId":10,"subadminId":2,"timestamp":"2025-06-05T16:52:33.995Z"}
+[undefined] ERROR: Login failed {"error":"User.findByStaffNo is not a function","timestamp":"2025-06-06T07:30:58.347Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-06T10:06:42.584Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-06T10:06:48.999Z"}
+[undefined] ERROR: Error fetching general complaints: {"error":"db is not defined","timestamp":"2025-06-06T10:09:41.185Z"}
+[undefined] ERROR: Error fetching general complaints: {"error":"Failed to fetch general complaints","timestamp":"2025-06-06T10:09:41.186Z"}
+[undefined] ERROR: Error fetching general complaints: {"error":"Unknown column 'u.name' in 'field list'","timestamp":"2025-06-06T10:16:15.738Z"}
+[undefined] ERROR: Error fetching general complaints: {"error":"Failed to fetch general complaints","timestamp":"2025-06-06T10:16:15.740Z"}
+[undefined] ERROR: Failed to take complaint {"error":"Complaint is not pending","complaintId":"18","subadminId":2,"timestamp":"2025-06-06T10:24:46.272Z"}
+[undefined] ERROR: Error taking complaint {"error":"Complaint is not pending","timestamp":"2025-06-06T10:24:46.273Z"}
+[undefined] ERROR: Error updating complaint solution: {"error":"Complaint is not open","timestamp":"2025-06-06T10:48:00.395Z"}
+[undefined] ERROR: Error updating complaint solution: {"error":"Complaint is not open","timestamp":"2025-06-06T10:48:00.396Z"}
+[undefined] ERROR: Failed to take complaint {"error":"Complaint is already assigned","complaintId":"19","subadminId":2,"timestamp":"2025-06-06T10:48:09.853Z"}
+[undefined] ERROR: Error taking complaint {"error":"Complaint is already assigned","timestamp":"2025-06-06T10:48:09.854Z"}
+[undefined] ERROR: Error updating complaint solution: {"error":"Complaint is not open","timestamp":"2025-06-06T10:48:17.574Z"}
+[undefined] ERROR: Error updating complaint solution: {"error":"Complaint is not open","timestamp":"2025-06-06T10:48:17.575Z"}
+[undefined] ERROR: Failed to classify description {"error":"mainIssueRelated is not defined","timestamp":"2025-06-06T11:27:54.377Z"}
+[undefined] ERROR: Error classifying description {"error":"mainIssueRelated is not defined","timestamp":"2025-06-06T11:27:54.378Z"}
+[undefined] ERROR: Failed to classify description {"error":"mainIssueRelated is not defined","timestamp":"2025-06-06T11:28:37.861Z"}
+[undefined] ERROR: Error classifying description {"error":"mainIssueRelated is not defined","timestamp":"2025-06-06T11:28:37.862Z"}
+[undefined] ERROR: Error updating complaint solution: {"error":"Data truncated for column 'action' at row 1","timestamp":"2025-06-06T18:53:41.529Z"}
+[undefined] ERROR: Error updating complaint solution: {"error":"Data truncated for column 'action' at row 1","timestamp":"2025-06-06T18:53:41.531Z"}
+[undefined] ERROR: Error updating complaint solution: {"error":"Data truncated for column 'action' at row 1","timestamp":"2025-06-06T18:54:24.134Z"}
+[undefined] ERROR: Error updating complaint solution: {"error":"Data truncated for column 'action' at row 1","timestamp":"2025-06-06T18:54:24.135Z"}
+[undefined] ERROR: Error updating complaint solution: {"error":"Data truncated for column 'action' at row 1","timestamp":"2025-06-06T18:56:03.707Z"}
+[undefined] ERROR: Error updating complaint solution: {"error":"Data truncated for column 'action' at row 1","timestamp":"2025-06-06T18:56:03.708Z"}
+[undefined] ERROR: Error updating complaint solution: {"error":"Data truncated for column 'action' at row 1","timestamp":"2025-06-06T18:56:15.549Z"}
+[undefined] ERROR: Error updating complaint solution: {"error":"Data truncated for column 'action' at row 1","timestamp":"2025-06-06T18:56:15.550Z"}
+[undefined] ERROR: Error updating complaint solution: {"error":"Data truncated for column 'action' at row 1","timestamp":"2025-06-06T19:00:35.628Z"}
+[undefined] ERROR: Error updating complaint solution: {"error":"Data truncated for column 'action' at row 1","timestamp":"2025-06-06T19:00:35.629Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect date of birth provided","timestamp":"2025-06-07T07:07:36.854Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect date of birth provided","timestamp":"2025-06-07T07:07:50.195Z"}
+[undefined] ERROR: Login failed {"error":"User with this phone number does not exist","timestamp":"2025-06-07T07:09:31.392Z"}
+[undefined] ERROR: Login failed {"error":"User with this phone number does not exist","timestamp":"2025-06-07T07:12:45.010Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect date of birth provided","timestamp":"2025-06-07T07:23:47.100Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect date of birth provided","timestamp":"2025-06-07T07:23:48.607Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-07T17:20:19.286Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-07T17:20:25.511Z"}
+[undefined] ERROR: Failed to take complaint {"error":"Complaint is not pending","complaintId":"30","subadminId":2,"timestamp":"2025-06-07T18:02:02.009Z"}
+[undefined] ERROR: Error taking complaint {"error":"Complaint is not pending","timestamp":"2025-06-07T18:02:02.010Z"}
+[undefined] ERROR: Error updating categorized complaint solution: {"error":"Data truncated for column 'action' at row 1","timestamp":"2025-06-07T18:04:47.036Z"}
+[undefined] ERROR: Error updating complaint solution: {"error":"Data truncated for column 'action' at row 1","timestamp":"2025-06-07T18:04:47.038Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-07T18:10:25.110Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-07T18:10:25.127Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect date of birth provided","timestamp":"2025-06-07T18:58:47.025Z"}
+[undefined] ERROR: Failed to reject complaint {"error":"Categorized complaints cannot be rejected","complaintId":"32","subadminId":2,"timestamp":"2025-06-07T19:11:36.275Z"}
+[undefined] ERROR: Error rejecting complaint {"error":"Categorized complaints cannot be rejected","timestamp":"2025-06-07T19:11:36.276Z"}
+[undefined] ERROR: Failed to reject complaint {"error":"Categorized complaints cannot be rejected","complaintId":"32","subadminId":2,"timestamp":"2025-06-07T19:17:00.857Z"}
+[undefined] ERROR: Error rejecting complaint {"error":"Categorized complaints cannot be rejected","timestamp":"2025-06-07T19:17:00.858Z"}
+[undefined] ERROR: Failed to update uncategorized complaint issues {"error":"Categorized complaints cannot be updated via this endpoint","complaintId":"33","subadminId":2,"timestamp":"2025-06-07T19:24:18.520Z"}
+[undefined] ERROR: Error updating complaint issues {"error":"Categorized complaints cannot be updated via this endpoint","timestamp":"2025-06-07T19:24:18.521Z"}
+[undefined] ERROR: Failed to update uncategorized complaint issues {"error":"Data truncated for column 'action' at row 1","complaintId":"33","subadminId":2,"timestamp":"2025-06-07T19:27:41.828Z"}
+[undefined] ERROR: Error updating complaint issues {"error":"Data truncated for column 'action' at row 1","timestamp":"2025-06-07T19:27:41.830Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-07T19:40:44.087Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-08T06:19:03.182Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-08T06:19:03.200Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect date of birth provided","timestamp":"2025-06-09T09:18:09.923Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-13T15:12:07.389Z"}
+[undefined] ERROR: Failed to classify description {"error":"Cannot add or update a child row: a foreign key constraint fails (`project_bel`.`sub_related_issues`, CONSTRAINT `sub_related_issues_ibfk_1` FOREIGN KEY (`related_issue_id`) REFERENCES `related_issues` (`id`) ON DELETE CASCADE)","timestamp":"2025-06-13T15:19:36.442Z"}
+[undefined] ERROR: Error classifying description {"error":"Cannot add or update a child row: a foreign key constraint fails (`project_bel`.`sub_related_issues`, CONSTRAINT `sub_related_issues_ibfk_1` FOREIGN KEY (`related_issue_id`) REFERENCES `related_issues` (`id`) ON DELETE CASCADE)","timestamp":"2025-06-13T15:19:36.443Z"}
+[undefined] ERROR: Failed to classify description {"error":"Cannot add or update a child row: a foreign key constraint fails (`project_bel`.`sub_related_issues`, CONSTRAINT `sub_related_issues_ibfk_1` FOREIGN KEY (`related_issue_id`) REFERENCES `related_issues` (`id`) ON DELETE CASCADE)","timestamp":"2025-06-13T15:21:34.588Z"}
+[undefined] ERROR: Error classifying description {"error":"Cannot add or update a child row: a foreign key constraint fails (`project_bel`.`sub_related_issues`, CONSTRAINT `sub_related_issues_ibfk_1` FOREIGN KEY (`related_issue_id`) REFERENCES `related_issues` (`id`) ON DELETE CASCADE)","timestamp":"2025-06-13T15:21:34.588Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect date of birth provided","timestamp":"2025-06-13T17:52:51.455Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect date of birth provided","timestamp":"2025-06-14T04:53:57.088Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-14T06:16:33.241Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-14T06:16:33.262Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-14T17:44:36.901Z"}
+[undefined] ERROR: Failed to submit complaint {"error":"Unknown column 'sub_related_issue_id' in 'field list'","userId":3,"timestamp":"2025-06-14T18:43:43.575Z"}
+[undefined] ERROR: Error submitting complaint {"error":"Unknown column 'sub_related_issue_id' in 'field list'","userId":3,"timestamp":"2025-06-14T18:43:43.576Z"}
+[undefined] ERROR: Failed to submit complaint {"error":"Unknown column 'sub_related_issue_id' in 'field list'","userId":3,"timestamp":"2025-06-14T18:44:31.908Z"}
+[undefined] ERROR: Error submitting complaint {"error":"Unknown column 'sub_related_issue_id' in 'field list'","userId":3,"timestamp":"2025-06-14T18:44:31.909Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-14T18:53:28.649Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-14T20:12:14.997Z"}
+[undefined] ERROR: Failed to submit complaint {"error":"Table 'project_bel.pending_complaint_issues' doesn't exist","userId":3,"timestamp":"2025-06-14T21:16:09.576Z"}
+[undefined] ERROR: Error submitting complaint {"error":"Table 'project_bel.pending_complaint_issues' doesn't exist","userId":3,"timestamp":"2025-06-14T21:16:09.576Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-14T22:09:10.667Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-14T22:09:10.687Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-14T22:09:16.173Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-14T22:09:16.189Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-14T22:09:27.486Z"}
+[undefined] ERROR: Error fetching general complaints: {"error":"Unknown column 'uc.closed_at' in 'field list'","timestamp":"2025-06-15T04:21:59.323Z"}
+[undefined] ERROR: Error fetching general complaints: {"error":"Failed to fetch general complaints","timestamp":"2025-06-15T04:21:59.329Z"}
+[undefined] ERROR: Error fetching general complaints: {"error":"Unknown column 'uc.closed_at' in 'field list'","timestamp":"2025-06-15T04:21:59.349Z"}
+[undefined] ERROR: Error fetching general complaints: {"error":"Failed to fetch general complaints","timestamp":"2025-06-15T04:21:59.350Z"}
+[undefined] ERROR: Error fetching general complaints: {"error":"Unknown column 'uc.closed_at' in 'field list'","timestamp":"2025-06-15T04:22:03.242Z"}
+[undefined] ERROR: Error fetching general complaints: {"error":"Failed to fetch general complaints","timestamp":"2025-06-15T04:22:03.243Z"}
+[undefined] ERROR: Error fetching general complaints: {"error":"Unknown column 'uc.closed_at' in 'field list'","timestamp":"2025-06-15T04:22:03.255Z"}
+[undefined] ERROR: Error fetching general complaints: {"error":"Failed to fetch general complaints","timestamp":"2025-06-15T04:22:03.256Z"}
+[undefined] ERROR: Error fetching general complaints: {"error":"Unknown column 'uc.closed_at' in 'field list'","timestamp":"2025-06-15T04:50:16.209Z"}
+[undefined] ERROR: Error fetching general complaints: {"error":"Failed to fetch general complaints","timestamp":"2025-06-15T04:50:16.210Z"}
+[undefined] ERROR: Failed to take complaint {"error":"Complaint is not pending","complaintId":"18","subadminId":2,"timestamp":"2025-06-15T04:51:48.535Z"}
+[undefined] ERROR: Error taking complaint {"error":"Complaint is not pending","timestamp":"2025-06-15T04:51:48.536Z"}
+[undefined] ERROR: Failed to take complaint {"error":"Complaint is not pending","complaintId":"18","subadminId":2,"timestamp":"2025-06-15T04:51:49.802Z"}
+[undefined] ERROR: Error taking complaint {"error":"Complaint is not pending","timestamp":"2025-06-15T04:51:49.802Z"}
+[undefined] ERROR: Failed to take complaint {"error":"Complaint is not pending","complaintId":"18","subadminId":2,"timestamp":"2025-06-15T04:51:50.631Z"}
+[undefined] ERROR: Error taking complaint {"error":"Complaint is not pending","timestamp":"2025-06-15T04:51:50.632Z"}
+[undefined] ERROR: Failed to take complaint {"error":"Complaint is not pending","complaintId":"18","subadminId":2,"timestamp":"2025-06-15T05:06:29.762Z"}
+[undefined] ERROR: Error taking complaint {"error":"Complaint is not pending","timestamp":"2025-06-15T05:06:29.763Z"}
+[undefined] ERROR: Failed to take complaint {"error":"Only uncategorized complaints can be taken","subadminId":2,"complaintId":"18","timestamp":"2025-06-15T08:45:08.902Z"}
+[undefined] ERROR: Error taking complaint {"error":"Only uncategorized complaints can be taken","subadminId":2,"complaintId":"18","timestamp":"2025-06-15T08:45:08.903Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-15T10:04:15.209Z"}
+[undefined] ERROR: Error fetching related issues: {"error":"Unknown column 'deleted_at' in 'where clause'","timestamp":"2025-06-15T10:05:56.620Z"}
+[undefined] ERROR: Error fetching related issues {"error":"Failed to fetch related issues","timestamp":"2025-06-15T10:05:56.621Z"}
+[undefined] ERROR: Error fetching related issues: {"error":"Unknown column 'deleted_at' in 'where clause'","timestamp":"2025-06-15T10:06:33.904Z"}
+[undefined] ERROR: Error fetching related issues {"error":"Failed to fetch related issues","timestamp":"2025-06-15T10:06:33.905Z"}
+[undefined] ERROR: Error fetching related issues: {"error":"Unknown column 'deleted_at' in 'where clause'","mainIssueId":2,"timestamp":"2025-06-15T10:15:53.957Z"}
+[undefined] ERROR: Error fetching related issues {"error":"Failed to fetch related issues: Unknown column 'deleted_at' in 'where clause'","timestamp":"2025-06-15T10:15:53.959Z"}
+[undefined] ERROR: Error fetching related issues: {"error":"Unknown column 'deleted_at' in 'where clause'","timestamp":"2025-06-15T10:17:19.282Z"}
+[undefined] ERROR: Error fetching related issues {"error":"Failed to fetch related issues","timestamp":"2025-06-15T10:17:19.283Z"}
+[undefined] ERROR: Error fetching related issues: {"error":"Unknown column 'deleted_at' in 'where clause'","timestamp":"2025-06-15T10:59:54.321Z"}
+[undefined] ERROR: Error fetching related issues {"error":"Failed to fetch related issues","timestamp":"2025-06-15T10:59:54.321Z"}
+[undefined] ERROR: Error fetching related issues: {"error":"Unknown column 'deleted_at' in 'where clause'","timestamp":"2025-06-15T11:01:20.474Z"}
+[undefined] ERROR: Error fetching related issues {"error":"Failed to fetch related issues","timestamp":"2025-06-15T11:01:20.474Z"}
+[undefined] ERROR: Error fetching related issues: {"error":"Unknown column 'deleted_at' in 'where clause'","timestamp":"2025-06-15T11:07:10.519Z"}
+[undefined] ERROR: Error fetching related issues {"error":"Failed to fetch related issues","timestamp":"2025-06-15T11:07:10.519Z"}
+[undefined] ERROR: Error updating complaint solution {"error":"Unknown column 'sub_related_issue_id' in 'field list'","complaintId":"24","subadminId":2,"timestamp":"2025-06-15T11:38:11.558Z"}
+[undefined] ERROR: Error updating complaint solution {"error":"Unknown column 'sub_related_issue_id' in 'field list'","complaintId":"24","subadminId":2,"timestamp":"2025-06-15T11:38:15.022Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-15T12:05:43.849Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-15T12:05:43.864Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-15T15:43:51.812Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-15T15:44:07.589Z"}
+[undefined] ERROR: Failed to fetch complaints {"error":"Unknown column 'uc.deleted_at' in 'where clause'","userId":3,"timestamp":"2025-06-15T17:23:12.502Z"}
+[undefined] ERROR: Error retrieving complaints {"error":"Unknown column 'uc.deleted_at' in 'where clause'","userId":3,"timestamp":"2025-06-15T17:23:12.502Z"}
+[undefined] ERROR: Failed to fetch complaints {"error":"Unknown column 'uc.deleted_at' in 'where clause'","userId":3,"timestamp":"2025-06-15T17:23:12.510Z"}
+[undefined] ERROR: Error retrieving complaints {"error":"Unknown column 'uc.deleted_at' in 'where clause'","userId":3,"timestamp":"2025-06-15T17:23:12.510Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-15T17:46:31.633Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-15T17:46:31.648Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-16T15:16:54.993Z"}
+[undefined] ERROR: Failed to fetch admins {"error":"pool is not defined","timestamp":"2025-06-16T19:25:22.817Z"}
+[undefined] ERROR: Failed to fetch admins {"error":"Unknown column 'name' in 'field list'","timestamp":"2025-06-16T19:27:24.683Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-16T19:42:27.557Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-16T19:42:27.563Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-16T19:42:27.582Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-16T19:42:27.608Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-17T17:21:16.973Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-17T17:21:16.994Z"}
+[undefined] ERROR: Failed to fetch track complaints {"error":"Expression #14 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'project_bel.sds.solution_text' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by","timestamp":"2025-06-17T17:24:30.365Z"}
+[undefined] ERROR: Failed to fetch track complaints {"error":"Expression #14 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'project_bel.sds.solution_text' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by","timestamp":"2025-06-17T17:24:30.385Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-19T04:49:05.775Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-19T04:49:05.785Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect date of birth provided","timestamp":"2025-06-19T05:02:11.114Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect date of birth provided","timestamp":"2025-06-19T05:02:34.355Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect date of birth provided","timestamp":"2025-06-19T05:04:13.082Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect date of birth provided","timestamp":"2025-06-19T05:33:14.787Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect date of birth provided","timestamp":"2025-06-19T07:20:03.546Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect date of birth provided","timestamp":"2025-06-19T07:20:15.930Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-19T12:26:46.032Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-19T12:26:46.064Z"}
+[undefined] ERROR: Failed to classify description {"error":"Bad arguments: First argument should be a string, second should be an array of strings","timestamp":"2025-06-19T12:56:10.753Z"}
+[undefined] ERROR: Error classifying description {"error":"Bad arguments: First argument should be a string, second should be an array of strings","timestamp":"2025-06-19T12:56:10.756Z"}
+[undefined] ERROR: Failed to classify description {"error":"Bad arguments: First argument should be a string, second should be an array of strings","timestamp":"2025-06-19T12:56:26.753Z"}
+[undefined] ERROR: Error classifying description {"error":"Bad arguments: First argument should be a string, second should be an array of strings","timestamp":"2025-06-19T12:56:26.754Z"}
+[undefined] ERROR: Failed to classify description {"error":"Bad arguments: First argument should be a string, second should be an array of strings","timestamp":"2025-06-19T12:56:58.769Z"}
+[undefined] ERROR: Error classifying description {"error":"Bad arguments: First argument should be a string, second should be an array of strings","timestamp":"2025-06-19T12:56:58.770Z"}
+[undefined] ERROR: Failed to classify description {"error":"Bad arguments: First argument should be a string, second should be an array of strings","timestamp":"2025-06-19T12:57:37.000Z"}
+[undefined] ERROR: Error classifying description {"error":"Bad arguments: First argument should be a string, second should be an array of strings","timestamp":"2025-06-19T12:57:37.001Z"}
+[undefined] ERROR: Failed to classify description {"error":"Bad arguments: First argument should be a string, second should be an array of strings","timestamp":"2025-06-19T12:58:26.440Z"}
+[undefined] ERROR: Error classifying description {"error":"Bad arguments: First argument should be a string, second should be an array of strings","timestamp":"2025-06-19T12:58:26.442Z"}
+[undefined] ERROR: Error updating uncategorized complaint {"error":"Cannot add or update a child row: a foreign key constraint fails (`project_bel`.`uncategorized_complaint_solutions`, CONSTRAINT `uncategorized_complaint_solutions_ibfk_2` FOREIGN KEY (`subadmin_id`) REFERENCES `subadmin_profiles` (`subadmin_id`))","complaintId":"1","subadminId":5,"timestamp":"2025-06-19T13:27:18.922Z"}
+[undefined] ERROR: Error updating uncategorized complaint {"error":"Failed to update uncategorized complaint","timestamp":"2025-06-19T13:27:18.923Z"}
+[undefined] ERROR: Error updating uncategorized complaint {"error":"Cannot add or update a child row: a foreign key constraint fails (`project_bel`.`uncategorized_complaint_solutions`, CONSTRAINT `uncategorized_complaint_solutions_ibfk_2` FOREIGN KEY (`subadmin_id`) REFERENCES `subadmin_profiles` (`subadmin_id`))","complaintId":"1","subadminId":5,"timestamp":"2025-06-19T13:27:22.035Z"}
+[undefined] ERROR: Error updating uncategorized complaint {"error":"Failed to update uncategorized complaint","timestamp":"2025-06-19T13:27:22.036Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-19T14:47:34.328Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-19T14:47:34.343Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-19T14:47:41.251Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-19T14:47:41.261Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-19T14:47:44.823Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-19T14:47:44.837Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-19T14:54:14.674Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-19T14:54:14.687Z"}
+[undefined] ERROR: Error updating complaint solution {"error":"Complaint not assigned to this subadmin","complaintId":"3","subadminId":5,"timestamp":"2025-06-19T14:58:34.966Z"}
+[undefined] ERROR: Error updating general complaint solution {"error":"Failed to update complaint solution","timestamp":"2025-06-19T14:58:34.966Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-19T16:11:16.508Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-19T16:11:16.519Z"}
+[undefined] ERROR: Failed to fetch track complaints {"error":"Unknown column 'uc.is_ai_verified' in 'field list'","timestamp":"2025-06-19T18:39:39.383Z"}
+[undefined] ERROR: Failed to fetch track complaints {"error":"Unknown column 'uc.is_ai_verified' in 'field list'","timestamp":"2025-06-19T18:39:39.407Z"}
+[undefined] ERROR: Failed to fetch track complaints {"error":"Unknown column 'uc.is_ai_verified' in 'field list'","timestamp":"2025-06-19T18:39:46.849Z"}
+[undefined] ERROR: Failed to fetch track complaints {"error":"Unknown column 'uc.is_ai_verified' in 'field list'","timestamp":"2025-06-19T18:39:46.864Z"}
+[undefined] ERROR: Failed to fetch track complaints {"error":"Expression #7 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'project_bel.ucs.main_issue_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by","timestamp":"2025-06-19T18:41:00.601Z"}
+[undefined] ERROR: Failed to fetch track complaints {"error":"Expression #7 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'project_bel.ucs.main_issue_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by","timestamp":"2025-06-19T18:41:00.620Z"}
+[undefined] ERROR: Failed to fetch track complaints {"error":"Expression #7 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'project_bel.ucs.main_issue_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by","timestamp":"2025-06-19T18:42:34.447Z"}
+[undefined] ERROR: Failed to fetch track complaints {"error":"Expression #7 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'project_bel.ucs.main_issue_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by","timestamp":"2025-06-19T18:42:34.473Z"}
+[undefined] ERROR: Failed to fetch track complaints {"error":"Expression #10 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'project_bel.mi.name' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by","timestamp":"2025-06-19T18:42:46.997Z"}
+[undefined] ERROR: Failed to fetch track complaints {"error":"Expression #10 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'project_bel.mi.name' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by","timestamp":"2025-06-19T18:42:47.013Z"}
+[undefined] ERROR: Failed to fetch track complaints {"error":"Expression #10 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'project_bel.mi.name' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by","timestamp":"2025-06-19T18:45:58.713Z"}
+[undefined] ERROR: Failed to fetch track complaints {"error":"Expression #10 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'project_bel.mi.name' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by","timestamp":"2025-06-19T18:45:58.733Z"}
+[undefined] ERROR: Failed to fetch track complaints {"error":"Expression #10 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'project_bel.mi.name' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by","timestamp":"2025-06-19T18:46:08.895Z"}
+[undefined] ERROR: Failed to fetch track complaints {"error":"Expression #10 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'project_bel.mi.name' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by","timestamp":"2025-06-19T18:46:08.912Z"}
+[undefined] ERROR: Failed to fetch track complaints {"error":"Expression #10 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'project_bel.mi.name' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by","timestamp":"2025-06-19T18:49:26.288Z"}
+[undefined] ERROR: Failed to fetch track complaints {"error":"Expression #10 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'project_bel.mi.name' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by","timestamp":"2025-06-19T18:49:26.306Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-19T18:57:37.849Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-19T18:57:37.867Z"}
+[undefined] ERROR: Failed to fetch track complaints {"error":"Expression #7 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'project_bel.ucs.main_issue_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by","timestamp":"2025-06-19T19:55:56.191Z"}
+[undefined] ERROR: Failed to fetch track complaints {"error":"Expression #7 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'project_bel.ucs.main_issue_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by","timestamp":"2025-06-19T19:55:56.201Z"}
+[undefined] ERROR: Failed to fetch track complaints {"error":"Expression #7 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'project_bel.ucs.main_issue_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by","timestamp":"2025-06-19T20:00:02.404Z"}
+[undefined] ERROR: Failed to fetch track complaints {"error":"Expression #7 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'project_bel.ucs.main_issue_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by","timestamp":"2025-06-19T20:00:02.412Z"}
+[undefined] ERROR: Failed to fetch track complaints {"error":"Expression #7 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'project_bel.ucs.main_issue_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by","timestamp":"2025-06-19T20:00:56.421Z"}
+[undefined] ERROR: Failed to fetch track complaints {"error":"Expression #7 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'project_bel.ucs.main_issue_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by","timestamp":"2025-06-19T20:00:56.428Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-19T20:32:37.403Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-19T20:32:37.424Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-19T20:32:41.112Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-19T20:32:41.128Z"}
+[undefined] ERROR: Login failed {"error":"User with this phone number does not exist","timestamp":"2025-06-20T14:56:35.300Z"}
+[undefined] ERROR: Login failed {"error":"User with this phone number does not exist","timestamp":"2025-06-20T14:56:48.299Z"}
+[undefined] ERROR: Failed to fetch track complaints {"error":"Expression #12 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'project_bel.idesc.description' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by","timestamp":"2025-06-24T02:15:01.279Z"}
+[undefined] ERROR: Failed to fetch track complaints {"error":"Expression #12 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'project_bel.idesc.description' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by","timestamp":"2025-06-24T02:15:01.304Z"}
+[undefined] ERROR: Failed to fetch track complaints {"error":"Expression #7 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'project_bel.mi.name' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by","timestamp":"2025-06-24T02:17:08.187Z"}
+[undefined] ERROR: Failed to fetch track complaints {"error":"Expression #7 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'project_bel.mi.name' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by","timestamp":"2025-06-24T02:17:08.209Z"}
+[undefined] ERROR: Failed to fetch track complaints {"error":"Expression #7 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'project_bel.mi.name' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by","timestamp":"2025-06-24T02:18:15.075Z"}
+[undefined] ERROR: Failed to fetch track complaints {"error":"Expression #7 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'project_bel.mi.name' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by","timestamp":"2025-06-24T02:18:15.094Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-24T02:29:09.048Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-24T02:29:09.073Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-24T02:29:54.224Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-24T02:29:54.244Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-24T14:31:16.703Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-24T14:31:16.723Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-24T16:25:58.624Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-24T16:25:58.647Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-25T16:12:11.210Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-25T16:16:32.440Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-25T17:12:24.204Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-25T17:27:52.932Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect date of birth provided","timestamp":"2025-06-26T05:30:44.979Z"}
+[undefined] ERROR: Error fetching dashboard summary {"error":"Unknown column 'done_by' in 'where clause'","timestamp":"2025-06-26T06:44:24.722Z"}
+[undefined] ERROR: Error fetching dashboard summary {"error":"Failed to fetch dashboard summary","timestamp":"2025-06-26T06:44:24.724Z"}
+[undefined] ERROR: Error fetching dashboard summary {"error":"Unknown column 'done_by' in 'where clause'","timestamp":"2025-06-26T06:44:24.748Z"}
+[undefined] ERROR: Error fetching dashboard summary {"error":"Failed to fetch dashboard summary","timestamp":"2025-06-26T06:44:24.749Z"}
+[undefined] ERROR: Error fetching dashboard summary {"error":"Unknown column 'done_by' in 'where clause'","timestamp":"2025-06-26T06:46:23.384Z"}
+[undefined] ERROR: Error fetching dashboard summary {"error":"Failed to fetch dashboard summary","timestamp":"2025-06-26T06:46:23.384Z"}
+[undefined] ERROR: Error fetching dashboard summary {"error":"Unknown column 'done_by' in 'where clause'","timestamp":"2025-06-26T06:46:23.402Z"}
+[undefined] ERROR: Error fetching dashboard summary {"error":"Failed to fetch dashboard summary","timestamp":"2025-06-26T06:46:23.403Z"}
+[undefined] ERROR: Error fetching dashboard summary {"error":"Unknown column 'done_by' in 'where clause'","timestamp":"2025-06-26T06:46:36.732Z"}
+[undefined] ERROR: Error fetching dashboard summary {"error":"Failed to fetch dashboard summary","timestamp":"2025-06-26T06:46:36.733Z"}
+[undefined] ERROR: Error fetching dashboard summary {"error":"Unknown column 'done_by' in 'where clause'","timestamp":"2025-06-26T06:46:36.751Z"}
+[undefined] ERROR: Error fetching dashboard summary {"error":"Failed to fetch dashboard summary","timestamp":"2025-06-26T06:46:36.751Z"}
+[undefined] ERROR: Error fetching dashboard summary {"error":"Unknown column 'done_by' in 'where clause'","timestamp":"2025-06-26T06:47:53.653Z"}
+[undefined] ERROR: Error fetching dashboard summary {"error":"Failed to fetch dashboard summary","timestamp":"2025-06-26T06:47:53.654Z"}
+[undefined] ERROR: Error fetching dashboard summary {"error":"Unknown column 'done_by' in 'where clause'","timestamp":"2025-06-26T06:47:56.655Z"}
+[undefined] ERROR: Error fetching dashboard summary {"error":"Failed to fetch dashboard summary","timestamp":"2025-06-26T06:47:56.655Z"}
+[undefined] ERROR: Error fetching dashboard summary {"error":"Unknown column 'done_by' in 'where clause'","timestamp":"2025-06-26T06:47:56.667Z"}
+[undefined] ERROR: Error fetching dashboard summary {"error":"Failed to fetch dashboard summary","timestamp":"2025-06-26T06:47:56.668Z"}
+[undefined] ERROR: Error fetching dashboard summary {"error":"Unknown column 'done_by' in 'where clause'","timestamp":"2025-06-26T06:48:01.191Z"}
+[undefined] ERROR: Error fetching dashboard summary {"error":"Failed to fetch dashboard summary","timestamp":"2025-06-26T06:48:01.192Z"}
+[undefined] ERROR: Error fetching dashboard summary {"error":"Unknown column 'done_by' in 'where clause'","timestamp":"2025-06-26T06:48:22.882Z"}
+[undefined] ERROR: Error fetching dashboard summary {"error":"Failed to fetch dashboard summary","timestamp":"2025-06-26T06:48:22.883Z"}
+[undefined] ERROR: Error fetching dashboard summary {"error":"Unknown column 'done_by' in 'where clause'","timestamp":"2025-06-26T06:48:22.899Z"}
+[undefined] ERROR: Error fetching dashboard summary {"error":"Failed to fetch dashboard summary","timestamp":"2025-06-26T06:48:22.901Z"}
+[undefined] ERROR: Error fetching dashboard summary {"error":"Unknown column 'done_by' in 'where clause'","timestamp":"2025-06-26T06:48:46.111Z"}
+[undefined] ERROR: Error fetching dashboard summary {"error":"Failed to fetch dashboard summary","timestamp":"2025-06-26T06:48:46.112Z"}
+[undefined] ERROR: Error fetching dashboard summary {"error":"Unknown column 'done_by' in 'where clause'","timestamp":"2025-06-26T06:48:46.126Z"}
+[undefined] ERROR: Error fetching dashboard summary {"error":"Failed to fetch dashboard summary","timestamp":"2025-06-26T06:48:46.127Z"}
+[undefined] ERROR: Error fetching dashboard summary {"error":"Unknown column 'done_by' in 'where clause'","timestamp":"2025-06-26T06:48:49.190Z"}
+[undefined] ERROR: Error fetching dashboard summary {"error":"Failed to fetch dashboard summary","timestamp":"2025-06-26T06:48:49.194Z"}
+[undefined] ERROR: Error fetching dashboard summary {"error":"Unknown column 'done_by' in 'where clause'","timestamp":"2025-06-26T06:48:49.213Z"}
+[undefined] ERROR: Error fetching dashboard summary {"error":"Failed to fetch dashboard summary","timestamp":"2025-06-26T06:48:49.214Z"}
+[undefined] ERROR: Error fetching dashboard summary {"error":"Unknown column 'done_by' in 'where clause'","timestamp":"2025-06-26T06:59:58.199Z"}
+[undefined] ERROR: Error fetching dashboard summary {"error":"Failed to fetch dashboard summary","timestamp":"2025-06-26T06:59:58.200Z"}
+[undefined] ERROR: Error fetching dashboard summary {"error":"Unknown column 'done_by' in 'where clause'","timestamp":"2025-06-26T06:59:58.217Z"}
+[undefined] ERROR: Error fetching dashboard summary {"error":"Failed to fetch dashboard summary","timestamp":"2025-06-26T06:59:58.218Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-26T07:53:26.789Z"}
+[undefined] ERROR: Error updating uncategorized complaint {"error":"Complaint not assigned to this subadmin","complaintId":"3","subadminId":6,"timestamp":"2025-06-26T08:58:39.172Z"}
+[undefined] ERROR: Error updating uncategorized complaint {"error":"Failed to update uncategorized complaint","timestamp":"2025-06-26T08:58:39.173Z"}
+[undefined] ERROR: Error updating uncategorized complaint {"error":"Complaint not assigned to this subadmin","complaintId":"3","subadminId":6,"timestamp":"2025-06-26T08:58:41.198Z"}
+[undefined] ERROR: Error updating uncategorized complaint {"error":"Failed to update uncategorized complaint","timestamp":"2025-06-26T08:58:41.199Z"}
+[undefined] ERROR: Error updating uncategorized complaint {"error":"Complaint not assigned to this subadmin","complaintId":"3","subadminId":6,"timestamp":"2025-06-26T08:58:45.717Z"}
+[undefined] ERROR: Error updating uncategorized complaint {"error":"Failed to update uncategorized complaint","timestamp":"2025-06-26T08:58:45.718Z"}
+[undefined] ERROR: Error updating uncategorized complaint {"error":"Complaint not assigned to this subadmin","complaintId":"3","subadminId":6,"timestamp":"2025-06-26T08:58:46.666Z"}
+[undefined] ERROR: Error updating uncategorized complaint {"error":"Failed to update uncategorized complaint","timestamp":"2025-06-26T08:58:46.666Z"}
+[undefined] ERROR: Error updating uncategorized complaint {"error":"Complaint not assigned to this subadmin","complaintId":"3","subadminId":6,"timestamp":"2025-06-26T08:58:47.394Z"}
+[undefined] ERROR: Error updating uncategorized complaint {"error":"Failed to update uncategorized complaint","timestamp":"2025-06-26T08:58:47.395Z"}
+[undefined] ERROR: Error updating uncategorized complaint {"error":"Complaint not assigned to this subadmin","complaintId":"3","subadminId":6,"timestamp":"2025-06-26T08:58:47.550Z"}
+[undefined] ERROR: Error updating uncategorized complaint {"error":"Failed to update uncategorized complaint","timestamp":"2025-06-26T08:58:47.550Z"}
+[undefined] ERROR: Error updating uncategorized complaint {"error":"Complaint not assigned to this subadmin","complaintId":"3","subadminId":6,"timestamp":"2025-06-26T08:58:47.710Z"}
+[undefined] ERROR: Error updating uncategorized complaint {"error":"Failed to update uncategorized complaint","timestamp":"2025-06-26T08:58:47.710Z"}
+[undefined] ERROR: Error updating uncategorized complaint {"error":"Complaint not assigned to this subadmin","complaintId":"3","subadminId":6,"timestamp":"2025-06-26T08:58:47.932Z"}
+[undefined] ERROR: Error updating uncategorized complaint {"error":"Failed to update uncategorized complaint","timestamp":"2025-06-26T08:58:47.933Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect date of birth provided","timestamp":"2025-06-26T14:32:32.024Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect date of birth provided","timestamp":"2025-06-26T14:33:06.661Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect date of birth provided","timestamp":"2025-06-26T14:33:24.732Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect date of birth provided","timestamp":"2025-06-26T14:33:46.341Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect date of birth provided","timestamp":"2025-06-26T14:34:09.310Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect date of birth provided","timestamp":"2025-06-26T14:34:35.972Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect date of birth provided","timestamp":"2025-06-26T14:35:59.645Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect date of birth provided","timestamp":"2025-06-26T14:36:09.298Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect date of birth provided","timestamp":"2025-06-26T15:23:58.666Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect date of birth provided","timestamp":"2025-06-26T16:09:43.574Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect date of birth provided","timestamp":"2025-06-26T16:10:46.816Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect date of birth provided","timestamp":"2025-06-26T16:29:12.667Z"}
+[undefined] ERROR: Unhandled error {"error":"Unexpected field","path":"/api/admin/import-users","origin":"http://localhost:5173","timestamp":"2025-06-26T16:40:51.587Z"}
+[undefined] ERROR: Login failed {"error":"User with this phone number does not exist","timestamp":"2025-06-27T14:19:46.140Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-27T14:52:48.323Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-27T14:52:48.338Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-27T16:07:13.507Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-27T16:07:13.574Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-29T14:14:48.335Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-29T14:17:26.618Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-29T14:17:26.637Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-29T16:51:33.306Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-29T16:51:33.317Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-29T16:59:27.419Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-29T16:59:27.427Z"}
+[undefined] ERROR: Login failed {"error":"Date of birth is required for this role","timestamp":"2025-06-30T01:58:13.678Z"}
+[undefined] ERROR: Login failed {"error":"User with this phone number does not exist","timestamp":"2025-06-30T01:58:44.222Z"}
+[undefined] ERROR: Login failed {"error":"Date of birth is required for this role","timestamp":"2025-06-30T01:59:27.446Z"}
+[undefined] ERROR: Login failed {"error":"Date of birth is required for this role","timestamp":"2025-06-30T02:02:12.070Z"}
+[undefined] ERROR: Login failed {"error":"Date of birth is required for this role","timestamp":"2025-06-30T02:20:47.384Z"}
+[undefined] ERROR: Login failed {"error":"Date of birth is required for this role","timestamp":"2025-06-30T02:30:17.951Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect date of birth provided","timestamp":"2025-06-30T02:42:55.962Z"}
+[undefined] ERROR: Login failed {"error":"Date of birth is required for this role","timestamp":"2025-06-30T03:02:28.600Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect date of birth provided","timestamp":"2025-06-30T03:02:53.777Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect date of birth provided","timestamp":"2025-06-30T03:03:01.975Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect date of birth provided","timestamp":"2025-06-30T03:03:23.570Z"}
+[undefined] ERROR: Profile update failed {"error":"Unknown column 'phone' in 'field list'","timestamp":"2025-06-30T03:18:11.707Z"}
+[undefined] ERROR: Profile update failed {"error":"Unknown column 'phone' in 'field list'","timestamp":"2025-06-30T03:18:14.309Z"}
+[undefined] ERROR: Profile update failed {"error":"Unknown column 'phone' in 'field list'","timestamp":"2025-06-30T03:21:32.745Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-30T04:05:15.861Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-30T04:05:15.884Z"}
+[undefined] ERROR: Login failed {"error":"User with this phone number does not exist","timestamp":"2025-06-30T04:05:25.351Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-30T04:14:01.289Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-30T04:14:01.304Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect date of birth provided","timestamp":"2025-06-30T04:46:44.402Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-30T05:49:34.670Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-30T05:51:02.761Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-30T05:51:02.763Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-30T05:51:02.768Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-30T05:51:02.771Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect date of birth provided","timestamp":"2025-06-30T13:26:57.247Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-30T14:56:45.478Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-30T14:56:45.501Z"}
+[undefined] ERROR: Failed to submit complaint {"error":"Data truncated for column 'status' at row 1","userId":2,"timestamp":"2025-06-30T15:07:46.228Z"}
+[undefined] ERROR: Error submitting complaint {"error":"Data truncated for column 'status' at row 1","userId":2,"timestamp":"2025-06-30T15:07:46.228Z"}
+[undefined] ERROR: Failed to submit complaint {"error":"Data truncated for column 'status' at row 1","userId":2,"timestamp":"2025-06-30T15:10:14.361Z"}
+[undefined] ERROR: Error submitting complaint {"error":"Data truncated for column 'status' at row 1","userId":2,"timestamp":"2025-06-30T15:10:14.361Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-30T17:27:29.264Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-30T17:34:01.554Z"}
+[undefined] ERROR: Error submitting complaint {"error":"Cannot read properties of undefined (reading 'query')","userId":5,"timestamp":"2025-06-30T18:48:04.065Z"}
+[undefined] ERROR: Error submitting complaint {"error":"Cannot read properties of undefined (reading 'query')","userId":5,"timestamp":"2025-06-30T18:50:41.836Z"}
+[undefined] ERROR: Error submitting complaint {"error":"Cannot read properties of undefined (reading 'query')","userId":5,"timestamp":"2025-06-30T18:53:11.672Z"}
+[undefined] ERROR: Error submitting complaint {"error":"Cannot read properties of undefined (reading 'query')","userId":5,"timestamp":"2025-06-30T18:53:38.350Z"}
+[undefined] ERROR: ❌ Error submitting complaint {"error":"existingContacts.includes is not a function","userId":5,"timestamp":"2025-06-30T18:56:41.541Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-30T20:05:09.261Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-30T20:05:09.279Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-30T20:10:25.299Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-06-30T20:10:25.319Z"}
+[undefined] ERROR: Login failed {"error":"User with this phone number does not exist","timestamp":"2025-07-01T07:28:42.428Z"}
+[undefined] ERROR: Login failed {"error":"User with this phone number does not exist","timestamp":"2025-07-01T07:28:47.322Z"}
+[undefined] ERROR: Error updating uncategorized complaint {"error":"Cannot add or update a child row: a foreign key constraint fails (`project_bel`.`uncategorized_complaint_solutions`, CONSTRAINT `uncategorized_complaint_solutions_ibfk_2` FOREIGN KEY (`subadmin_id`) REFERENCES `subadmin_profiles` (`subadmin_id`))","complaintId":"1","subadminId":3,"timestamp":"2025-07-01T07:38:10.184Z"}
+[undefined] ERROR: Error updating uncategorized complaint {"error":"Failed to update uncategorized complaint","timestamp":"2025-07-01T07:38:10.184Z"}
+[undefined] ERROR: Error updating uncategorized complaint {"error":"Cannot add or update a child row: a foreign key constraint fails (`project_bel`.`uncategorized_complaint_solutions`, CONSTRAINT `uncategorized_complaint_solutions_ibfk_2` FOREIGN KEY (`subadmin_id`) REFERENCES `subadmin_profiles` (`subadmin_id`))","complaintId":"1","subadminId":3,"timestamp":"2025-07-01T07:38:13.183Z"}
+[undefined] ERROR: Error updating uncategorized complaint {"error":"Failed to update uncategorized complaint","timestamp":"2025-07-01T07:38:13.183Z"}
+[undefined] ERROR: Login failed {"error":"User with this phone number does not exist","timestamp":"2025-07-01T09:16:53.892Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect date of birth provided","timestamp":"2025-07-01T09:17:04.656Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect date of birth provided","timestamp":"2025-07-01T09:17:20.034Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect date of birth provided","timestamp":"2025-07-03T02:46:38.096Z"}
+[undefined] ERROR: Login failed {"error":"User with this phone number does not exist","timestamp":"2025-07-03T02:47:43.841Z"}
+[undefined] ERROR: Unhandled error {"error":"CORS policy: Origin http://172.232.52.40:5173 not allowed","path":"/api/auth/login","origin":"http://172.232.52.40:5173","timestamp":"2025-07-08T10:38:24.589Z"}
+[undefined] ERROR: Unhandled error {"error":"CORS policy: Origin http://172.232.52.40:5173 not allowed","path":"/api/auth/login","origin":"http://172.232.52.40:5173","timestamp":"2025-07-08T10:38:27.896Z"}
+[undefined] ERROR: Unhandled error {"error":"CORS policy: Origin http://192.168.71.1:5173 not allowed","path":"/api/auth/login","origin":"http://192.168.71.1:5173","timestamp":"2025-07-09T00:16:04.510Z"}
+[undefined] ERROR: Login failed {"error":"Password is required for this role","timestamp":"2025-07-09T08:33:59.251Z"}
+[undefined] ERROR: Login failed {"error":"Password is required for this role","timestamp":"2025-07-09T08:34:06.605Z"}
+[undefined] ERROR: Login failed {"error":"Password is required for this role","timestamp":"2025-07-09T08:34:29.040Z"}
+[undefined] ERROR: Login failed {"error":"Password is required for this role","timestamp":"2025-07-09T08:35:09.319Z"}
+[undefined] ERROR: Login failed {"error":"User with this phone number does not exist","timestamp":"2025-07-09T08:36:42.985Z"}
+[undefined] ERROR: Login failed {"error":"Password is required for this role","timestamp":"2025-07-09T08:40:10.524Z"}
+[undefined] ERROR: Login failed {"error":"Password is required for this role","timestamp":"2025-07-09T08:40:19.991Z"}
+[undefined] ERROR: Login failed {"error":"Password is required for this role","timestamp":"2025-07-09T08:40:26.623Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-09T08:46:21.876Z"}
+[undefined] ERROR: Login failed {"error":"User with this phone number does not exist","timestamp":"2025-07-09T10:33:24.505Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-09T10:41:41.737Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-10T01:02:12.276Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-10T01:02:15.734Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-10T01:02:47.891Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-10T01:38:05.862Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-10T01:42:40.254Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-10T02:14:41.010Z"}
+[undefined] ERROR: Unhandled error {"error":"bcrypt is not defined","path":"/api/auth/user/reset-password","origin":"http://localhost:5173","timestamp":"2025-07-10T02:15:06.042Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-10T02:17:43.259Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-10T02:39:46.693Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-10T02:40:02.930Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-10T03:00:26.943Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-10T03:01:09.549Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-10T03:01:27.027Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-10T03:06:07.956Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-10T03:42:05.108Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-10T04:02:00.418Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-10T04:02:17.924Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-10T04:02:51.531Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-10T04:03:31.484Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-10T04:04:03.104Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-10T04:04:30.684Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-10T04:05:02.509Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-10T04:38:44.624Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-10T04:43:44.928Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-10T04:45:31.751Z"}
+[undefined] ERROR: Login failed {"error":"User with this phone number does not exist","timestamp":"2025-07-10T04:48:08.112Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-10T04:48:34.161Z"}
+[undefined] ERROR: Unhandled error {"error":"File too large","path":"/api/profile/update","origin":"http://localhost:5173","timestamp":"2025-07-10T04:56:55.302Z"}
+[undefined] ERROR: Unhandled error {"error":"File too large","path":"/api/profile/update","origin":"http://localhost:5173","timestamp":"2025-07-10T04:56:56.663Z"}
+[undefined] ERROR: Unhandled error {"error":"File too large","path":"/api/profile/update","origin":"http://localhost:5173","timestamp":"2025-07-10T04:57:00.209Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-10T06:07:26.053Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-10T06:07:40.530Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-10T07:19:41.611Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-10T07:19:41.629Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-10T07:19:43.023Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-10T07:19:43.038Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-10T07:53:25.172Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-10T07:53:25.187Z"}
+[undefined] ERROR: Failed to fetch track complaints {"error":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'cf.label AS feedback_label,\n        cf.comment AS feedback_comment,\n        CASE' at line 18","timestamp":"2025-07-10T08:12:22.173Z"}
+[undefined] ERROR: Failed to fetch track complaints {"error":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'cf.label AS feedback_label,\n        cf.comment AS feedback_comment,\n        CASE' at line 18","timestamp":"2025-07-10T08:12:22.190Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-10T08:32:58.055Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-10T08:32:58.072Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-10T08:33:05.561Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-10T08:33:05.572Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-10T08:33:08.502Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-10T08:33:08.524Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-10T11:44:32.365Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-10T12:26:16.118Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-10T12:26:16.125Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-10T12:26:16.145Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-10T12:26:16.152Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-10T12:51:09.903Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-10T13:52:04.373Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-10T13:52:04.393Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-10T19:30:24.762Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-10T19:30:24.777Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-10T19:30:29.557Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-10T19:30:29.574Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-10T20:31:21.568Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-10T20:31:21.581Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-10T20:31:24.696Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-10T20:31:24.709Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-10T20:43:15.279Z"}
+[undefined] ERROR: Login failed {"error":"User with this phone number does not exist","timestamp":"2025-07-10T21:04:26.615Z"}
+[undefined] ERROR: Login failed {"error":"User with this phone number does not exist","timestamp":"2025-07-10T21:04:51.752Z"}
+[undefined] ERROR: Login failed {"error":"User with this phone number does not exist","timestamp":"2025-07-10T21:06:37.129Z"}
+[undefined] ERROR: Login failed {"error":"User with this phone number does not exist","timestamp":"2025-07-10T21:07:35.484Z"}
+[undefined] ERROR: Login failed {"error":"User with this phone number does not exist","timestamp":"2025-07-10T21:08:09.501Z"}
+[undefined] ERROR: Login failed {"error":"User with this phone number does not exist","timestamp":"2025-07-10T21:22:07.751Z"}
+[undefined] ERROR: Login failed {"error":"User with this phone number does not exist","timestamp":"2025-07-10T21:22:09.462Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-10T21:22:28.955Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-10T21:24:07.631Z"}
+[undefined] ERROR: Login failed {"error":"Password is required for this account","timestamp":"2025-07-10T21:24:42.452Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-10T21:25:24.130Z"}
+[undefined] ERROR: Error updating complaint solution {"error":"Unknown column 'severity' in 'field list'","complaintId":"5","subadminId":5,"timestamp":"2025-07-10T21:49:37.078Z"}
+[undefined] ERROR: Error updating general complaint solution {"error":"Failed to update complaint solution","timestamp":"2025-07-10T21:49:37.078Z"}
+[undefined] ERROR: Error updating uncategorized complaint {"error":"Cannot add or update a child row: a foreign key constraint fails (`project_bel`.`uncategorized_complaint_solutions`, CONSTRAINT `uncategorized_complaint_solutions_ibfk_2` FOREIGN KEY (`subadmin_id`) REFERENCES `subadmin_profiles` (`subadmin_id`))","complaintId":"1","subadminId":2,"timestamp":"2025-07-10T22:52:55.060Z"}
+[undefined] ERROR: Error updating uncategorized complaint {"error":"Failed to update uncategorized complaint","timestamp":"2025-07-10T22:52:55.061Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-11T17:50:17.293Z"}
+[undefined] ERROR: Error updating uncategorized complaint {"error":"Cannot add or update a child row: a foreign key constraint fails (`project_bel`.`uncategorized_complaint_solutions`, CONSTRAINT `uncategorized_complaint_solutions_ibfk_2` FOREIGN KEY (`subadmin_id`) REFERENCES `subadmin_profiles` (`subadmin_id`))","complaintId":"3","subadminId":2,"timestamp":"2025-07-12T02:06:09.636Z"}
+[undefined] ERROR: Error updating uncategorized complaint {"error":"Failed to update uncategorized complaint","timestamp":"2025-07-12T02:06:09.636Z"}
+[undefined] ERROR: Error updating uncategorized complaint {"error":"Cannot add or update a child row: a foreign key constraint fails (`project_bel`.`uncategorized_complaint_solutions`, CONSTRAINT `uncategorized_complaint_solutions_ibfk_2` FOREIGN KEY (`subadmin_id`) REFERENCES `subadmin_profiles` (`subadmin_id`))","complaintId":"3","subadminId":2,"timestamp":"2025-07-12T02:06:15.665Z"}
+[undefined] ERROR: Error updating uncategorized complaint {"error":"Failed to update uncategorized complaint","timestamp":"2025-07-12T02:06:15.665Z"}
+[undefined] ERROR: Error updating uncategorized complaint {"error":"Cannot add or update a child row: a foreign key constraint fails (`project_bel`.`uncategorized_complaint_solutions`, CONSTRAINT `uncategorized_complaint_solutions_ibfk_2` FOREIGN KEY (`subadmin_id`) REFERENCES `subadmin_profiles` (`subadmin_id`))","complaintId":"3","subadminId":2,"timestamp":"2025-07-12T02:06:27.431Z"}
+[undefined] ERROR: Error updating uncategorized complaint {"error":"Failed to update uncategorized complaint","timestamp":"2025-07-12T02:06:27.432Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-12T03:41:20.423Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-12T03:41:20.446Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-12T03:41:42.586Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-17T02:25:59.314Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-17T03:15:19.997Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-18T17:04:58.854Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-18T17:05:05.301Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-18T18:05:46.723Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-18T18:05:57.368Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-18T18:36:48.003Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-19T05:29:35.044Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-19T05:29:35.057Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-19T07:07:40.160Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-19T09:07:15.191Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-19T09:08:15.197Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-19T09:08:15.204Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-19T09:09:15.183Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-19T09:10:15.180Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-19T09:11:15.187Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-19T09:12:15.187Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-19T09:13:15.188Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-19T09:14:15.199Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-19T09:15:15.185Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-19T09:16:15.188Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-19T09:17:15.197Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-19T09:18:15.183Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-19T09:19:15.204Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-19T09:20:15.189Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-19T09:21:15.183Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-19T09:22:15.197Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-19T09:23:15.190Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-19T09:24:15.184Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-19T09:25:15.186Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-19T10:22:15.213Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-19T10:23:15.187Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-19T10:24:15.175Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-19T10:25:15.173Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-19T10:26:15.170Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-19T10:27:15.167Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-19T10:28:15.179Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-19T10:29:15.169Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-19T10:30:15.180Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-19T10:31:15.171Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-19T10:32:15.191Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-19T10:33:15.171Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-19T10:34:15.189Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-19T10:35:15.164Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-19T10:36:15.176Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-19T10:37:15.184Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-19T10:37:57.556Z"}
+[undefined] ERROR: Login failed {"error":"User with this phone number does not exist","timestamp":"2025-07-19T10:48:42.267Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-20T17:07:16.368Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-20T17:07:26.667Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-20T17:08:00.745Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-21T02:36:49.223Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-21T03:27:34.171Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-21T03:28:34.166Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-21T03:29:34.177Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-21T03:30:34.175Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-21T03:31:34.174Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-21T03:32:34.173Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-21T03:33:34.184Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-21T03:34:34.178Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-21T03:35:34.179Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-21T03:36:34.180Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-21T03:37:34.169Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-21T03:37:34.171Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-21T03:38:34.170Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-21T03:39:34.171Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-21T03:40:34.179Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-21T03:41:34.175Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-21T03:42:34.168Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-21T03:43:34.171Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-21T03:44:34.176Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-21T03:45:23.090Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-21T04:26:05.105Z"}
+[undefined] ERROR: Subadmin password reset failed {"error":"resetSubadminPassword is not defined","timestamp":"2025-07-21T04:26:40.577Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-21T04:26:59.427Z"}
+[undefined] ERROR: Subadmin password reset failed {"error":"resetSubadminPassword is not defined","timestamp":"2025-07-21T04:43:04.908Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-21T05:00:49.490Z"}
+[undefined] ERROR: Subadmin password reset failed {"error":"resetSubadminPassword is not defined","timestamp":"2025-07-21T05:01:14.731Z"}
+[undefined] ERROR: Subadmin password reset failed {"error":"Incorrect password provided","timestamp":"2025-07-21T05:07:08.001Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-21T05:07:44.205Z"}
+[undefined] ERROR: Subadmin password reset failed {"error":"Incorrect password provided","timestamp":"2025-07-21T05:08:04.120Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-21T06:14:10.178Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-21T06:14:24.928Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-21T06:14:34.204Z"}
+[undefined] ERROR: Token verification failed {"error":"Token verification failed","timestamp":"2025-07-21T06:15:21.686Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-21T06:18:07.441Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-21T06:19:00.766Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-21T06:21:03.153Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-21T06:27:13.912Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-21T06:27:36.595Z"}
+[undefined] ERROR: Login failed {"error":"User with this phone number does not exist","timestamp":"2025-07-21T06:41:49.359Z"}
+[undefined] ERROR: Login failed {"error":"User with this phone number does not exist","timestamp":"2025-07-21T06:47:18.497Z"}
+[undefined] ERROR: Login failed {"error":"User with this StaffNumber does not exist","timestamp":"2025-07-21T07:15:47.060Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-21T07:28:27.208Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-21T07:30:32.350Z"}
+[undefined] ERROR: Login failed {"error":"Incorrect password provided","timestamp":"2025-07-21T07:32:40.825Z"}
+[undefined] ERROR: Login failed {"error":"User with this StaffNumber does not exist","timestamp":"2025-07-21T07:32:46.829Z"}

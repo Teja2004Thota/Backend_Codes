@@ -58,7 +58,7 @@ export const getProfile = async (req, res) => {
 
     // ✅ Add full image URL
     if (profile.photo) {
-      profile.photoUrl = `http://localhost:4000/uploads/profile_photos/${profile.photo}`;
+      profile.photoUrl = `https://cms-backend-ceyx.onrender.com/uploads/profile_photos/${profile.photo}`;
     }
 
     res.status(200).json(profile);

@@ -18,15 +18,16 @@ dotenv.config();
 const app = express();
 app.set('trust proxy', 1);
 
+// ✅ Allowed frontend origins
 const allowedOrigins = [
   'http://localhost:3000',
   'http://localhost:5173',
-  'http://172.232.52.251:5173', // ✅ Add your frontend IP
+  'http://172.232.52.251:5173',
   'http://172.232.52.251:5180',
   'https://frontend-codes-alpha.vercel.app',
 ];
 
-// HTTPS redirect for production
+// ✅ Redirect HTTP to HTTPS in production
 if (process.env.NODE_ENV === 'production' && !process.env.DISABLE_HTTPS) {
   app.use((req, res, next) => {
     if (!req.secure && req.get('x-forwarded-proto') !== 'https') {
@@ -36,7 +37,7 @@ if (process.env.NODE_ENV === 'production' && !process.env.DISABLE_HTTPS) {
   });
 }
 
-// ✅ Serve uploaded files statically with MIME headers
+// ✅ Serve uploaded static files with headers
 app.use('/uploads', express.static(path.join(process.cwd(), 'uploads'), {
   setHeaders: (res, filePath) => {
     if (filePath.endsWith('.png')) res.setHeader('Content-Type', 'image/png');
@@ -45,7 +46,7 @@ app.use('/uploads', express.static(path.join(process.cwd(), 'uploads'), {
   }
 }));
 
-// ✅ Security headers (Helmet with proper CSP)
+// ✅ Helmet for security headers
 app.use(
   helmet({
     contentSecurityPolicy: {
@@ -60,30 +61,38 @@ app.use(
   })
 );
 
-
-
-
-// ✅ Enable JSON parsing
+// ✅ JSON parsing
 app.use(express.json());
 
-// ✅ CORS configuration
-app.use(
-  cors({
-    origin: (origin, callback) => {
-      if (!origin || allowedOrigins.includes(origin)) {
-        callback(null, true);
-      } else {
-        logger.warn('CORS blocked request from unauthorized origin', { origin });
-        callback(new Error(`CORS policy: Origin ${origin} not allowed`));
-      }
-    },
-    credentials: true,
-    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-    allowedHeaders: ['Content-Type', 'Authorization'],
-  })
-);
+// ✅ Allow OPTIONS preflight requests globally
+app.options('*', cors({
+  origin: (origin, callback) => {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error(`CORS policy: Origin ${origin} not allowed`));
+    }
+  },
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+}));
 
-// ✅ Log incoming requests
+// ✅ Allow CORS for actual requests
+app.use(cors({
+  origin: (origin, callback) => {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error(`CORS policy: Origin ${origin} not allowed`));
+    }
+  },
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+}));
+
+// ✅ Log all incoming requests
 app.use((req, res, next) => {
   logger.info('Incoming request', {
     method: req.method,
@@ -93,7 +102,7 @@ app.use((req, res, next) => {
   next();
 });
 
-// ✅ Routes
+// ✅ Main API routes
 app.use('/api/auth', authRoutes);
 app.use('/api/dashboard', dashboardRoutes);
 app.use('/api/profile', profileRoutes);
@@ -101,7 +110,7 @@ app.use('/api/complaints', complaintRoutes);
 app.use('/api/subadmin', subadminRoutes);
 app.use('/api/admin', adminRoutes);
 
-// ✅ Health check route
+// ✅ Health check
 app.get('/health', (req, res) => {
   res.status(200).json({ status: 'OK', uptime: process.uptime() });
 });

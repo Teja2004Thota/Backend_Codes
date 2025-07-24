@@ -22,6 +22,7 @@ const allowedOrigins = [
   'http://localhost:5173',
   'http://172.232.52.251:5173', // ✅ Add your frontend IP
   'http://172.232.52.251:5180',
+  'https://frontend-codes-alpha.vercel.app',
 ];
 
 // HTTPS redirect for production
